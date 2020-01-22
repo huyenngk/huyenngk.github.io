@@ -1,65 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Cooking blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kate's Recipes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href=stylehw.css>
 </head>
+
 <body>
-    <h1>Kate Nguyen's cooking blog</h1>
 
-    <h2>Introduction</h2>
+    <body>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="hw1.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="hw1pho.html">Pho</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="hw1roll.html">Spring Rolls</a>
+            </li>
+        </ul>
 
-    <p>
-        I am originally from Vietnam, and I love cooking  
-        <strong>Vietnamese</strong>
-        food. I will post my favorite food recipes in this blog.  
-    </p>
 
-    <p>
-        Pho is one of my most favorite food, and it's not very difficult to make.  
-    </p>
-    <p>
-        This is
-        <a href="https://www.nytimes.com/2019/11/07/dining/just-pho-review.html">an article</a>
-        about Pho  
-    </p>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Kate Nguyen's cooking blog</h1>
+                <p class="lead">Dive in to explore Vietnamese cooking and traditions</p>
+            </div>
+        </div>
 
-    <div>
-    <img src="vietnamese_beef_noodle_soup.jpg", width=400 height=400>
-    </div>
 
-    <p>
-        What you would love about Pho:  
-    </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>Authentic Vietnamese Pho</h4>
 
-    <ul>
-        <li>The naturally sweetened broth</li>
-        <li>A lot of herb</li>
-        <li>It's great to eat in winter </li>
-    </ul>
+                    <h6>Jan 16, 2019</h6>
 
-    <hr>
+                    <div>
+                        <img src="vietnamese_beef_noodle_soup.jpg">
+                    </div>
+                    <p>
+                        There is no pleasure quite the same as tucking into a steaming bowl of hot homemade soup. Pho, a
+                        staple Vietnamese soup, is no exception. Much like miso to Japanese cooking and chicken noodle
+                        soup to American cooking, this soup is full of flavors to comfort and warm you up.
+                    </p>
 
-    <p>
-        A list of my favorite places to eat Pho  
-    </p>
+                    <p></p>
 
-    <table>
-        <tr>
-            <td>City</td>
-            <td>Restaurant</td>
-        </tr>
-        <tr>
-            <td>New York</td>
-            <td>Thai Son</td>
-        </tr>
-        <tr>
-            <td>Chicago</td>
-            <td>Pho Xe Lua</td>
-        </tr>
-    </table>
+                    <div>
+                        <a href="hw1pho.html" class="btn btn-dark">Read more</a>
+                    </div>
 
-    <div>
-        <a href="about.html">About Page</a>
-    </div>
-</body>
+
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <img src="profile.jpg" alt="Avatar" class="avatar">
+                    </div>
+                    <div>
+                        <p class="intro">Hello, this site was created and maintained by me — Kate Nguyen, an MBA student
+                            at Kellogg -
+                            Northwestern University. I was born and grew up in Vietnam, but have lived in the States for
+                            the past 10 years. To me, cooking is a hobby and a way to express care for my loved ones. I
+                            will use this blog to share my favorite Vietnamese food recipes. I hope you will enjoy it!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p></p>
+            <p></p>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>Vietnamese Fried Spring Rolls</h4>
+
+                    <h6>Jan 22, 2019</h6>
+
+                    <div>
+                        <img src="springrolls.jpg">
+                    </div>
+
+                    <p>Vietnamese fried spring rolls are surprisingly easy to make and filled with fresh, healthy
+                        ingredients such as pork and prawn (or chicken if you prefer!). Once you learn the technique of
+                        folding the spring rolls, you’ll be able to whip up a batch in no time. Crispy and utterly
+                        delicious, they’re perfect as a tasty snack or appetizer for parties.</p>
+
+                    <p></p>
+
+                    <div>
+                        <a href="hw1roll.html" class="btn btn-dark">Read more</a>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+                    <p>FEATURED POSTS</p>
+                    <hr>
+                    <img src="vietnamese_beef_noodle_soup.jpg" class="small"><a class="nav-link"
+                        href="hw1pho.html">Pho</a>
+                    <p></p>
+                    <img src="springrolls.jpg" class="small"><a class="nav-link" href="hw1roll.html">Spring Rolls</a>
+
+                </div>
+            </div>
+
+            <p></p>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>List of my favorite Vietnamese restaurants in the US</h4>
+                    <p>(Continuously updated)</p>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">City</th>
+                            <th scope="col">Restaurant</th>
+                            <th scope="col">Address</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Chicago</td>
+                            <td><a class="nav-link" href="https://haiyenchicago.com/">Hai Yen</a></td>
+                            <td>1055 W Argyle St # 1, Chicago, IL 60640</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>New York</td>
+                            <td><a class="nav-link" href="https://thaisonnyc.com/">Thai Son</a></td>
+                            <td>89 Baxter St, New York, NY 10013</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>San Jose</td>
+                            <td><a class="nav-link" href="https://phohanoisj.com//">Pho Ha Noi</a></td>
+                            <td>969 Story Rd #6048, San Jose, CA 95122</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+    </body>
+
 </html>

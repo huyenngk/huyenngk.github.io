@@ -1,0 +1,46 @@
+body {
+    font-family: Helvetica;
+}
+
+p {
+    font-size: 12 px;
+}
+
+img {
+    height: 320px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.small {
+    height: 50px;
+    width: 70 px;
+}
+
+.jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(my-global-table-vietnam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: white;
+  }
+
+.nav-link {
+    color: black;
+}
+
+.active {
+    background-color: black;
+}
+
+
+
