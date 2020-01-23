@@ -1,9 +1,9 @@
 body {
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif;
 }
 
-p {
-    font-size: 12 px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Acme', sans-serif;
 }
 
 img {
@@ -40,6 +40,11 @@ img {
 
 .active {
     background-color: black;
+}
+
+a.no-hover {
+    text-decoration: none;
+    color: black;
 }
 
 
